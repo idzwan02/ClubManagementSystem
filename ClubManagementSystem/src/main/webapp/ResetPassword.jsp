@@ -13,7 +13,7 @@
             <img src="https://cdn-b.heylink.me/media/users/og_image/a1adb54527104a50ac887d6a299ee511.webp" alt="uitm">
         </div>
         <div class="text-center mt-4 name">
-            <br><h3 style=text-align:center>RESET PASSWORD</h3>
+            <h3 style=text-align:center>RESET PASSWORD</h3>
         </div>
         <form class="p-3 mt-3" action="ForgotServlet" method = "post">
             <div class="form-field d-flex align-items-center">
