@@ -18,15 +18,15 @@
         <form class="p-3 mt-3" action="ForgotServlet" method = "post">
             <div class="form-field d-flex align-items-center">
                 <span class="far fa-user"></span>
-                <input type="text" name="student_id" id="student_id" placeholder="Student ID">
+                <input type="text" name="student_id" id="student_id" placeholder="Student ID" required>
             </div>
             <div class="form-field d-flex align-items-center">
                 <span class="fas fa-key"></span>
-                <input type="password" name="password" id="pwd" placeholder="Password">
+                <input type="password" name="password" id="pwd" placeholder="Password" required>
             </div>
             <div class="form-field d-flex align-items-center">
                 <span class="fas fa-key"></span>
-                <input type="password" name="confirm_password" id="cnfrm_pwd" placeholder="Confirm Password">
+                <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm Password" required>
             </div>
             <button class="btn mt-3">CHANGE PASSWORD</button>
         </form>

@@ -18,39 +18,39 @@
         <form class="p-3 mt-3" action="SignupServlet" method = "post">
             <div class="form-field d-flex align-items-center">
                 <span class="far fa-user"></span>
-                <input type="text" name="student_id" id="student_id" placeholder="Student ID">
+                <input type="text" name="student_id" id="student_id" placeholder="Student ID" required>
             </div>
             <div class="form-field d-flex align-items-center">
                 <span class="far fa-user"></span>
-                <input type="text" name="name" id="name" placeholder="Full Name">
+                <input type="text" name="name" id="name" placeholder="Full Name" required>
             </div>
             <div class="form-field d-flex align-items-center">
                 <span class="far fa-user"></span>
-                <input type="text" name="ic" id="ic" placeholder="IC Number">
+                <input type="text" name="ic" id="ic" placeholder="IC Number" required>
             </div>
             <div class="form-field d-flex align-items-center">
                 <span class="far fa-user"></span>
-                <input type="text" name="email" id="email" placeholder="Student Email">
+                <input type="text" name="email" id="email" placeholder="Student Email" required>
             </div>
             <div class="form-field d-flex align-items-center">
                 <span class="far fa-user"></span>
-                <input type="text" name="cont_num" id="cont_num" placeholder="Contact Number">
+                <input type="text" name="cont_num" id="cont_num" placeholder="Contact Number" required>
             </div>
             <div class="form-field d-flex align-items-center">
                 <span class="far fa-user"></span>
-                <input type="text" name="faculty" id="faculty" placeholder="Faculty">
+                <input type="text" name="faculty" id="faculty" placeholder="Faculty" required>
             </div>
             <div class="form-field d-flex align-items-center">
                 <span class="far fa-user"></span>
-                <input type="text" name="program" id="program" placeholder="Program">
+                <input type="text" name="program" id="program" placeholder="Program" required>
             </div>
             <div class="form-field d-flex align-items-center">
                 <span class="far fa-user"></span>
-                <input type="text" name="year" id="year" placeholder="Year of Study">
+                <input type="text" name="year" id="year" placeholder="Year of Study" required>
             </div>
             <div class="form-field d-flex align-items-center">
                 <span class="fas fa-key"></span>
-                <input type="password" name="password" id="pwd" placeholder="Password">
+                <input type="password" name="password" id="pwd" placeholder="Password" required>
             </div>
             <button class="btn mt-3">SIGN UP</button>
         </form>
