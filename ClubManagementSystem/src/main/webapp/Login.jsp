@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <title>Login</title>
 <link rel="stylesheet" href="form.css">
+<link rel="icon" type="image/x-icon" href="https://cdn-b.heylink.me/media/users/og_image/a1adb54527104a50ac887d6a299ee511.webp">
 </head>
 <body>
 <div class="wrapper">
