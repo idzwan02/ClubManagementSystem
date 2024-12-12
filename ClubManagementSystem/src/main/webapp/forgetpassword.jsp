@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Login</title>
+<title>Reset Password</title>
 <link rel="stylesheet" href="form.css">
 </head>
 <body>
@@ -13,9 +13,9 @@
             <img src="https://cdn-b.heylink.me/media/users/og_image/a1adb54527104a50ac887d6a299ee511.webp" alt="uitm">
         </div>
         <div class="text-center mt-4 name">
-            <h1 style=text-align:center>LOG IN</h1>
+            <br><h3 style=text-align:center>RESET PASSWORD</h3>
         </div>
-        <form class="p-3 mt-3" action="LoginServlet" method = "post">
+        <form class="p-3 mt-3" action="ForgotServlet" method = "post">
             <div class="form-field d-flex align-items-center">
                 <span class="far fa-user"></span>
                 <input type="text" name="student_id" id="student_id" placeholder="Student ID">
@@ -24,10 +24,14 @@
                 <span class="fas fa-key"></span>
                 <input type="password" name="password" id="pwd" placeholder="Password">
             </div>
-            <button class="btn mt-3">LOG IN</button>
+            <div class="form-field d-flex align-items-center">
+                <span class="fas fa-key"></span>
+                <input type="password" name="confirm_password" id="cnfrm_pwd" placeholder="Confirm Password">
+            </div>
+            <button class="btn mt-3">CHANGE PASSWORD</button>
         </form>
         <div class="text-center fs-6">
-            <p style=text-align:center><a href="ResetPassword.jsp">Forget password?</a> or <a href="Signup.jsp">Sign up</a></p>
+            <p style=text-align:center><a href="Login.jsp">Back to Login</a>
         </div>
     </div>
 </body>
